@@ -1,4 +1,5 @@
 ﻿using System;
+using crud.Models.DB;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -8,6 +9,9 @@ namespace crud.Data
 {
     public partial class appContext : DbContext
     {
+        public DbSet<Carros> Carros { get; set; }
+        public DbSet<Contatos> Contatos { get; set; }
+        public DbSet<Produtos> Produtos { get; set; } 
         public appContext()
         {
         }
