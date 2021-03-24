@@ -1,4 +1,8 @@
-# crud
+# CRUD
+Create 
+Read
+Update
+Delete
 Projeto MVC em .NET5
 
 Comando para executar no Powershell:
